@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0"> 
+        <link rel="stylesheet" href="style.css">
+        <title>
+            About ME
+        </title>
+        <style>
+            * {
+                box-sizing: border-box; 
+            }
+            .flex-container {
+                display: flex;
+                justify-content: space-around;
+                padding: 10px;
+                flex-direction: column;
+                background: purple;
+            }
+            .flex-container2 {
+                display: flex;
+                justify-content: space-around;
+                padding: 10px;
+                flex-direction: row;
+                background: purple;
+            }
+            .flex-item {
+                background-color: black;
+                border: 1px solid white;
+                padding: 1px 20px;
+                margin: 10px;
+                font-size: 10px;
+                flex-grow: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-container">
+            <header class="flex-item">
+                <h1>
+                    Kurtis Asumadu
+                </h1>
+            </header>
+        </div>
+        <div class="flex-container2">
+            <nav class="flex-item">
+                <h2>
+                    My Background
+                </h2>
+                <ul>
+                    <li>I was born in Canada</li>
+                    <li>My parents are from Ghana</li>
+                </ul>
+            </nav>
+            <main class="flex-item">
+                <h2>
+                    My Interests
+                </h2>
+                <ul>
+                    <li>I like playing volleyball</li>
+                    <li>I'm also into playing video games on PC</li>
+                    <li>Watching youtube</li>
+                </ul>
+            </main>
+            <footer class="flex-item">
+                <h2>
+                    My Goals for 2024
+                </h2>
+                <ol>
+                    <li>I want to be able to make more friends</li>
+                    <li>Get high grades in every class</li>
+                </ol>
+            </footer>
+        </div>
+        <div class="flex-container">
+            <aside class="flex-item">
+                My HUMBER email:
+                <b><mark>N01344336@humber.ca</mark></b>
+                <p>One short phrase about me: <em><ins>Gotta try my best</ins></em></p>
+            </aside>
+        </div>
+    </body>
+</html>
